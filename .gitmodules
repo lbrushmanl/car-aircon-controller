@@ -1,0 +1,3 @@
+[submodule "firmware/submodules/avr-drivers"]
+	path = firmware/submodules/avr-drivers
+	url = https://github.com/lbrushmanl/avr-drivers

@@ -1,0 +1,35 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+BreakBeforeBraces: Allman
+AllowShortFunctionsOnASingleLine: None
+ColumnLimit: 100
+
+SortIncludes: true
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '^"'
+    Priority: 1
+    SortPriority: 1
+  - Regex: '^<avr/'
+    Priority: 2
+    SortPriority: 2
+  - Regex: '^<.*>'
+    Priority: 3
+    SortPriority: 3
+
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignConsecutiveMacros: true
+AlignTrailingComments: false
+AlignOperands: true
+
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpaceAfterCStyleCast: true
+Cpp11BracedListStyle: true
+EmptyLineBeforeAccessModifier: Never
+SeparateDefinitionBlocks: Leave
+KeepEmptyLinesAtTheStartOfBlocks: true
+MaxEmptyLinesToKeep: 2
